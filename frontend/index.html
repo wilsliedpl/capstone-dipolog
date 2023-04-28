@@ -101,16 +101,16 @@
                     <!-- icons buttons Start-->
                     <div class="p-1">
                       <div class="icons mx-auto d-block">
-                        <a href="#" class="icnbg ml-5 icon icon--instagram">
+                        <a href="https://www.instagram.com/" class="icnbg ml-5 icon icon--instagram">
                           <i class="ri-instagram-line"></i>
                         </a>
-                        <a href="#" class="icnbg icon icon--twitter">
+                        <a href="https://twitter.com/?lang=en" class="icnbg icon icon--twitter">
                           <i class="ri-twitter-line"></i>
                         </a>
-                        <a href="#" class="icnbg icon icon--linkedin">
+                        <a href="https://www.linkedin.com/" class="icnbg icon icon--linkedin">
                           <i class="ri-linkedin-line"></i>
                         </a>
-                        <a href="#" class="icnbg icon icon--github">
+                        <a href="https://github.com/wilsliedpl/capstone-dipolog" class="icnbg icon icon--github">
                           <i class="ri-github-line"></i>
                         </a>
                       </div>
@@ -263,16 +263,52 @@
          <form class="text-center card form mb-5 mt-5">
               <div class="checkout-method">
               </div>
+              <form>
               <div class="checkout-information">
                 <div class="input-group">
-                  <h4 class="space-bold">Sign up to the newsletter</h4>
+                  <h4 class="space-bold">Sign up to the newsletter</h4>           
                   <label for="name" class="text-secondary">Subscribe now to get notified about exclusive stories from the writing every week!</label>
-                  <input type="text" id="name" placeholder="email-address" />
+                  <input type="text" id="email" placeholder="email-address" recquired autocomplete>
+                  <button type="submit" 
+                          class="button button--checkout btn btn-dark"
+                          data-toggle="modal"
+                          data-target="#exampleModal">Send</button>
                 </div>
               </div>
-              </div>
-              <button class="button button--checkout">Send</button>
-         </form>      
+            </form>
+            <!-- Modal -->
+                <div
+                    class="modal fade text-dark"
+                    id="exampleModal"
+                    tabindex="-1"
+                    role="dialog"
+                    aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                    
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                         <h5 class="modal-title" id="exampleModalLabel">Thank you for signing up on us!</h5>
+                         <button
+                             type="button"
+                             class="close"
+                             data-dismiss="modal"
+                             aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                         </button>
+                      </div>
+                        <div class="modal-body">Already Sent.</div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-secondary"
+                            data-dismiss="moda">Close</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End of Modal -->   
+              
        </section>
        <!-- Contact End -->
 
@@ -282,16 +318,16 @@
            <!-- icons buttons Start-->
            <div class="p-1">
              <div class="icons mx-auto d-block">
-               <a href="#" id="eight" class=" mr-3  icon--instagram">
+               <a href="https://www.instagram.com/" id="eight" class=" mr-3  icon--instagram">
                  <i class="ri-instagram-line"></i>
                </a>
-               <a href="#" id="eight" class="mr-3 icon--twitter">
+               <a href="https://twitter.com/?lang=en" id="eight" class="mr-3 icon--twitter">
                  <i class="ri-twitter-line"></i>
                </a>
-               <a href="#" id="eight" class="mr-3 icon--linkedin">
+               <a href="https://www.linkedin.com/" id="eight" class="mr-3 icon--linkedin">
                  <i class="ri-linkedin-line"></i>
                </a>
-               <a href="#" id="eight" class="mr-3 icon--github">
+               <a href="https://github.com/wilsliedpl/capstone-dipolog" id="eight" class="mr-3 icon--github">
                  <i class="ri-github-line"></i>
                </a>
              </div>
