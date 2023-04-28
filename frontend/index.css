@@ -308,15 +308,15 @@ footer span {
 	align-items: center;
 	gap: 10px;
 }
-.link {
+.nvlnk {
 	font-size: 15px;
 	position: relative;
 	display: inline-block;
 	text-decoration: none;
 	color: #fff;
 }
-.link::before,
-.link::after {
+.nvlnk::before,
+.nvlnk::after {
 	content: '';
 	position: absolute;
 	left: 0;
@@ -326,18 +326,25 @@ footer span {
 	transform: scaleX(0);
 	transition: transform 0.25s;
 }
-.link::before {
+.nvlnk::before {
 	top: -3px;
 	transform-origin: left;
 }
-.link::after {
+.nvlnk::after {
 	bottom: -3px;
 	transform-origin: right;
 }
-.link:hover::before,
-.link:hover::after,
+.nvlnk:hover::before,
+.nvlnk:hover::after,
 .active::before,
 .active::after {
 	transform: scaleX(1);
 }
+
+.navbar-toggler{
+	padding: 0.1rem;
+	background-color: dimgrey;
+	outline: 1px black;
+	box-sizing: border-box;
+ }
 
